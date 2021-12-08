@@ -57,14 +57,20 @@ body{
   flex: 0 0 100%;
 }
 
-nav .navbar {
-  font-family: 'Roboto', sans-serif;
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
-.navbar ul li{ 
+.navbar ul li  {
+  display: inline-flex;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 15px;
-
-  display: flex;
-  justify-content: row;
+}
+.navbar ul li {
+ padding: 10px 15px;
+ text-decoration: none;
+ display: inline-block;
+ font-family: 'Roboto', sans-serif;
 }
