@@ -1,3 +1,7 @@
 .navbar nav{
   font-family: 'Roboto', sans-serif;
 }
+.navbar nav ul li {
+  text-transform: uppercase;
+  
+}
