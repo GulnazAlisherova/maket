@@ -5,6 +5,7 @@ nav .navbar {
 .navbar ul li{ 
   text-transform: uppercase;
   font-size: 13px;
-  line
+  line-height: 15px;
   display: flex;
+  justify-content: row;
 }
