@@ -56,7 +56,10 @@ body{
 .col-12 {
   flex: 0 0 100%;
 }
-
+.navbar{
+  display: flex;
+  color: black;
+}
 .navbar ul {
   padding: 0;
   margin: 0;
@@ -67,10 +70,22 @@ body{
   text-transform: uppercase;
   font-size: 13px;
   line-height: 15px;
-}
-.navbar ul li {
- padding: 10px 15px;
+
+  padding: 10px 15px;
  text-decoration: none;
  display: inline-block;
  font-family: 'Roboto', sans-serif;
+}
+.navbar  li a{
+  text-decoration: none;
+  text-decoration-style: none;
+}
+.navbar  img {
+  justify-content: center;
+  text-align: center;
+
+}
+
+.navbar-between {
+  justify-content: space-between;
 }
