@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  
+ font-family: 'Roboto', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -58,7 +60,8 @@ body{
 }
 .navbar{
   display: flex;
-  color: black;
+  padding: 20px;
+  align-items: center;
 }
 .navbar ul {
   padding: 0;
@@ -67,25 +70,37 @@ body{
 }
 .navbar ul li  {
   display: inline-flex;
-  text-transform: uppercase;
   font-size: 13px;
   line-height: 15px;
 
   padding: 10px 15px;
  text-decoration: none;
  display: inline-block;
- font-family: 'Roboto', sans-serif;
 }
 .navbar  li a{
   text-decoration: none;
   text-decoration-style: none;
+  color: black;
 }
 .navbar  img {
   justify-content: center;
   text-align: center;
 
 }
-
+.uppercase{
+  text-transform: uppercase;
+}
 .navbar-between {
   justify-content: space-between;
+}
+
+.example-1 {
+  text-align: center;
+  color: white;
+
+  padding: 100px;
+  background-image: url(./Rectangle.svg);
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
