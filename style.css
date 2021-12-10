@@ -224,6 +224,8 @@ footer li a{
   text-decoration-style: none;
   color: black;
   margin-left: 20px;
+  
+  font-size: 15px;
 }
 footer .btn{
   background-color: black;
