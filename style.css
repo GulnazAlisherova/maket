@@ -92,7 +92,16 @@ body{
 .navbar-between {
   justify-content: space-between;
 }
-
+.example-0 img{
+  max-width: 100%;
+}
+.example-0 {
+  padding: 0 150px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #A0A0A0;
+  padding-bottom: 30px;
+}
 .example-1 {
   text-align: center;
   color: white;
@@ -171,4 +180,8 @@ main h6 {
   color: #A0A0A0;
   font-size: 16px;
   line-height: 24px;
+}
+.example-5 {
+  padding: 25px 0 60px 0;
+
 }
