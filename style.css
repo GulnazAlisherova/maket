@@ -196,20 +196,23 @@ main h6 {
   background-position:left;
   background-size: cover;
    
+  margin: 0 30px;
   padding: 100px ;
   color: white;
+  margin-bottom: 50px;
 }
-footer{
-  margin-top: 40px;
+footer{ 
   padding-top: 40px;
   background-color: #E5E5E5;
 }
 footer  ul {
+  padding-top: 40px;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 footer ul li  {
+  padding-top: 40px;
   display: flex;
   line-height: 15px;
   font-size: 13px;
@@ -228,5 +231,7 @@ footer .btn{
   border-color: black;
   color: white;
   padding: 20px 20px;
- 
+  float:right;
+  display:block;
+  margin-right: 0;
 }
