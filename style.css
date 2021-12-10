@@ -214,8 +214,8 @@ footer ul li  {
   font-size: 13px;
   line-height: 15px;
 
+  text-decoration: none;
   padding: 9px 9px;
- text-decoration: none;
 }
 footer li a{
   font-weight: 500;
