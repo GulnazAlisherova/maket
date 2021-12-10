@@ -104,17 +104,32 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.example-1 h3{
+.example-1 h1{
   size: 43px;
   line-height: 46px ;
   font-weight: 400;
 }
 .p{
-  size: 15px;
+  font-size: 15px;
   line-height: 18px;
-  
+  padding-bottom: -20px;
 }
 .p2{
   line-height: 15px;
+  font-size: 13px;
+}
+
+.example-2{
+  text-align: center;
+}
+.example-2 h6{
+  color: #A0A0A0;
+  font-size: 14px;
+  line-height: 24px;
+}
+.weight-norm {
+  font-weight: normal;
+}
+.example-2 h5{
   font-size: 13px;
 }
