@@ -240,5 +240,6 @@ footer h5{
   color: #A0A0A0;
 }
 footer .card{
-  
+  max-width: 330px;
+  margin-top : -20px;
 }
