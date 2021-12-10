@@ -104,3 +104,12 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.example-1 h3{
+  size: 43px;
+  line-height: 46px ;
+}
+.p{
+  size: 15px;
+  line-height: 18px;
+  
+}
