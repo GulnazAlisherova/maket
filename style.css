@@ -16,7 +16,6 @@ body{
 }
 .row {
   display: flex;
-  gap: .5rem;
   flex-wrap: wrap;
 }
 .col {
@@ -142,4 +141,17 @@ article h6 {
   color: #A0A0A0;
   font-size: 14px;
   line-height: 18px;
+}
+main h6 {
+  color: #A0A0A0;
+  font-size: 14px;
+  line-height: 18px;
+} 
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
