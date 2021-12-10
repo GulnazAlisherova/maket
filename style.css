@@ -195,10 +195,38 @@ main h6 {
   background-repeat: no-repeat;
   background-position:left;
   background-size: cover;
-
+   
   padding: 100px ;
   color: white;
 }
 footer{
+  padding-top: 40px;
+  margin-top: 40px;
   background-color: #E5E5E5;
+}
+footer  ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+footer ul li  {
+  display: flex;
+  font-size: 13px;
+  line-height: 15px;
+
+  padding: 9px 9px;
+ text-decoration: none;
+}
+footer li a{
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration-style: none;
+  color: black;
+}
+footer .btn{
+  background-color: black;
+  border-color: black;
+  color: white;
+  padding: 20px 20px;
+ 
 }
