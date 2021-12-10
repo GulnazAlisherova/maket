@@ -183,5 +183,10 @@ main h6 {
 }
 .example-5 {
   padding: 25px 0 60px 0;
-
+}
+.example-6{
+  padding: 0 17px;
+}
+.ex-7 {
+  padding: 90px;
 }
