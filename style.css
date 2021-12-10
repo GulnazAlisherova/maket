@@ -156,11 +156,9 @@ main h6 {
   font-size: 14px;
   line-height: 18px;
 } 
-
 .margin-auto {
   margin: 0 auto;
 }
-
 .justify-evenly {
   justify-content: space-evenly;
 }
