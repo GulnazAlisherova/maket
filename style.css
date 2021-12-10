@@ -230,8 +230,10 @@ footer li a{
 footer .btn{
   background-color: black;
   border-color: black;
+  
   color: white;
   padding: 20px 20px;
+
   float:right;
   display:block;
   margin-top: -40px;
