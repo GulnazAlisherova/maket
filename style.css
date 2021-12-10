@@ -205,9 +205,9 @@ footer{
   background-color: #E5E5E5;
 }
 footer  ul {
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  list-style-type: none;
 }
 footer ul li  {
   display: flex;
