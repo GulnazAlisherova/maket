@@ -138,3 +138,8 @@ body{
 .d-flex{
   display: flex;
 }
+article h6 {
+  color: #A0A0A0;
+  font-size: 14px;
+  line-height: 18px;
+}
