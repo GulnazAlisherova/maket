@@ -192,8 +192,8 @@ main h6 {
 }
 .ex-8{
   background-image: url(./pochtifooterimage.svg);
-  background-position:left;
   background-repeat: no-repeat;
+  background-position:left;
   background-size: cover;
 
   padding: 100px ;
