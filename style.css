@@ -155,3 +155,12 @@ main h6 {
 .justify-evenly {
   justify-content: space-evenly;
 }
+.example-3{
+  background-image: url(./background.png);
+  background-position:left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 150px;
+  color: white;
+}
