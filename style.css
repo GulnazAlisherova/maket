@@ -129,8 +129,10 @@ body{
 .align-cen{
   text-align: center;
 }
-.example-2{
+.fontsize{
   font-size: 33px;
+}
+.example-2{
   padding: 50px 0;
 }
 .example-2 h6{
@@ -172,6 +174,9 @@ main h6 {
   padding: 150px;
   color: white;
 }
+.example-3 h1{
+  font-size: 66px;
+}
 .example-4 {
   padding-top: 55px;
 }
@@ -205,7 +210,7 @@ main h6 {
 }
 footer{ 
   padding-top: 40px;
-  background-color: #E5E5E5;
+  background-color: #F9F9F9;
 }
 footer  ul {
   padding-top: 40px;
