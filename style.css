@@ -57,7 +57,15 @@ body{
 .col-12 {
   flex: 0 0 100%;
 }
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .navbar{
+  font-weight: 500;
   display: flex;
   padding: 20px;
   align-items: center;
@@ -254,6 +262,11 @@ footer .card{
   max-width: 310px;
   margin-top: -15px;
 }
+footer .card h3{
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+} 
 .line{
   border-bottom: 1px solid black; 
   width: 23%;
@@ -290,4 +303,10 @@ footer .card{
 }
 .grey{
   color: #A0A0A0;
+}
+@media screen and (min-width: 600px)  {
+  body{
+    flex-direction: column;
+  }
+  
 }
