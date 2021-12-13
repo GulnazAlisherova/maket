@@ -107,7 +107,7 @@ body{
 
   height: 550px;
   padding: 100px;
-  background-image: url(./Rectangle.svg);
+  background-image: url(./img/Rectangle.svg);
   background-position:left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,7 +166,7 @@ main h6 {
   justify-content: space-evenly;
 }
 .example-3{
-  background-image: url(./background.png);
+  background-image: url(./img/background.png);
   background-position:left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ main h6 {
   padding: 90px;
 }
 .ex-8{
-  background-image: url(./pochtifooterimage.svg);
+  background-image: url(./img/pochtifooterimage.svg);
   background-repeat: no-repeat;
   background-position:left;
   background-size: cover;
@@ -221,8 +221,6 @@ footer  ul {
 footer ul li  {
   padding-top: 40px;
   display: flex;
-  line-height: 15px;
-  font-size: 13px;
 
   text-decoration: none;
   padding: 9px 9px;
@@ -233,8 +231,9 @@ footer li a{
   text-decoration-style: none;
   color: black;
   margin-left: 20px;
-  
-  font-size: 15px;
+
+  line-height: 20px;
+  font-size: 22px;
 }
 footer .btn{
   background-color: black;
@@ -251,16 +250,19 @@ footer h5{
   color: #A0A0A0;
 }
 footer .card{
-  max-width: 330px;
+  max-width: 310px;
   margin-top: -15px;
 }
 .line{
-  border: 1px solid black; 
+  border-bottom: 1px solid black; 
+  width: 23%;
+  margin: 65px;
 }
 
 .navbar2{
   padding: 20px;
-  align-items: center;
+  justify-content: flex-end;
+  padding-left: 699px;
 }
 .navbar2 ul {
   padding: 0;
@@ -276,6 +278,8 @@ footer .card{
  display: inline-block;
 }
 .navbar2  li a{
+  font-size: 13px;
+  line-height: 15px;
   text-decoration: none;
   text-decoration-style: none;
   color: #707A7F;
