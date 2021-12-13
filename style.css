@@ -249,7 +249,8 @@ footer .btn{
 footer h5{
   color: #A0A0A0;
 }
-footer .card{
+footer .card{    
+  margin-left: -365px;
   max-width: 310px;
   margin-top: -15px;
 }
