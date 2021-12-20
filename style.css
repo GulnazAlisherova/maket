@@ -64,8 +64,14 @@ header {
   left: 0;
   right: 0;
 }
+@media (max-width: 950px) {
+  body {
+    max-width: 900px;
+    overflow: scroll;
+  }
+}
 .navbar{
-  font-weight: 500;
+  font-weight: 550;
   display: flex;
   padding: 20px;
   align-items: center;
@@ -99,6 +105,7 @@ header {
 .navbar-between {
   justify-content: space-between;
 }
+
 .example-0 img{
   max-width: 100%;
 }
@@ -114,7 +121,7 @@ header {
   color: white;
 
   height: 550px;
-  padding: 100px;
+  padding: 200px;
   background-image: url(./img/Rectangle.svg);
   background-position:left;
   background-repeat: no-repeat;
