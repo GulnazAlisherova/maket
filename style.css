@@ -72,8 +72,8 @@ header {
 }
 .navbar{
   font-weight: 550;
-  display: flex;
   padding: 20px;
+  display: flex;
   align-items: center;
 }
 .navbar ul {
